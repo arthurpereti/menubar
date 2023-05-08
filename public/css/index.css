@@ -1,0 +1,66 @@
+*{
+    padding: 0px;margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    width: 100vw;
+
+}
+
+header .menu{
+    padding: 8px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 4vh;
+}
+
+header .menu button{
+    margin-right: 8vw;
+
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+
+
+header .navbar{
+    position: absolute;
+    top: 6.2vh;
+    left: 0;
+    width: 15vw;
+    height: 20vh;
+    background-color: black;
+    color: whitesmoke;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+header .navbar_ativo{
+    left: -200px;
+    transition: 200ms;
+}
+
+header .navbar a:visited{
+    color: whitesmoke;
+}
+
+
+header .menu-list{
+    list-style: none;
+/* 
+    display: flex;
+    flex-direction: row; */
+}
+
+header .menu-list a{
+    text-decoration: none;
+}
+
+header .menu-list .icon-menu-itens{
+    width: 2rem;
+}
